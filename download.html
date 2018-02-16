@@ -114,24 +114,9 @@
 
 
 <ul class="arrow">
+	<li><strong>GitHub.com, 50.1 MB ..... </strong><a href="https://github.com/viewizard/astromenace/releases/download/v1.3.2/astromenace-win-1.3.2.exe" title="Download AstroMenace for Windows" target="_blank"><strong>astromenace-win-1.3.2.exe [Click here to download]</strong></a></li>
 	<li><strong>SourceForge.net, 50.1 MB ..... </strong><a href="http://sourceforge.net/projects/openastromenace/files/1.3.2/astromenace-win-1.3.2.exe" title="Download AstroMenace for Windows" target="_blank"><strong>astromenace-win-1.3.2.exe [Click here to download]</strong></a></li>
 </ul>
-
-
-<div align="justify">&nbsp;</div>
-
-<h5>Source Package</h5>
-<ul>
-	<li><strong>SourceForge.net, 52.8 MB ..... </strong><a href="http://sourceforge.net/projects/openastromenace/files/1.3.2/astromenace-src-1.3.2.tar.bz2" title="Source Package" target="_blank"><strong>astromenace-src-1.3.2.tar.bz2 [Click here to download]</strong></a></li>
-</ul>
-
-<div align="justify">&nbsp;</div>
-
-<h5>MinGW libs Package</h5>
-<ul>
-	<li><strong>SourceForge.net, 10.9 MB ..... </strong><a href="http://sourceforge.net/projects/openastromenace/files/1.3.2/astromenace-mingw-libs-1.3.2.zip" title="MinGW libs Package" target="_blank"><strong>astromenace-mingw-libs-1.3.2.zip [Click here to download]</strong></a></li>
-</ul>
-
 
 <div align="justify">&nbsp;</div>
 <div align="justify">&nbsp;</div>
@@ -153,56 +138,14 @@
 
 
 <ul class="arrow">
+	<li><strong>GitHub.com, 54.6 MB ..... </strong><a href="https://github.com/viewizard/astromenace/releases/download/v1.3.2/astromenace-macosx-1.3.2.dmg" title="Download AstroMenace for Mac OS X" target="_blank"><strong>astromenace-macosx-1.3.2.dmg [Click here to download]</strong></a></li>
 	<li><strong>SourceForge.net, 54.6 MB ..... </strong><a href="http://sourceforge.net/projects/openastromenace/files/1.3.2/astromenace-macosx-1.3.2.dmg" title="Download AstroMenace for Mac OS X" target="_blank"><strong>astromenace-macosx-1.3.2.dmg [Click here to download]</strong></a></li>
 </ul>
 
-
-
-
-
-<div align="justify">&nbsp;</div>
-<div align="justify">&nbsp;</div>
-
-
-<h4>Get up to date AstroMenace on your computer (Mac OS X 10.5+):</h4>
-
-<div align="justify">&nbsp;</div>
-
-<ul class="big">
-<li class="big1"><strong>
-  Download and install "<a href="https://developer.apple.com/downloads" target="_blank">Command Line Tools for Xcode</a>" or "<a href="http://itunes.apple.com/us/app/xcode/id497799835" target="_blank">Xcode</a>".<br />
-  Install HomeBrew package manager: <a href="https://brew.sh/" target="_blank">https://brew.sh/</a><br />
-  Install all necessary packages with development headers:<br /><br /></strong>
-$ brew install cmake sdl subversion libogg libvorbis freealut freetype
-
-</li>
-
-
-<li class="big2"><strong>Checkout svn with latest source files</strong><br /><br />
-$ cd ~/<br />
-$ svn checkout http://svn.code.sf.net/p/openastromenace/code/ AstroMenace<br />
-</li>
-
-
-<li class="big3"><strong>Compile game binary</strong><br /><br />
-$ cd ~/AstroMenace<br />
-$ cmake ./<br />
-$ make
-</li>
-
-
-<li class="big4"><strong>Create game VFS data file</strong><br /><br />
-$ ./AstroMenace --pack --rawdata=./RAW_VFS_DATA
-</li>
-<li class="big5"><strong>Start AstroMenace</strong><br /><br />
-$ ~/AstroMenace/AstroMenace
-</li>
-</ul>
-
 <div align="justify">&nbsp;</div>
 <div align="justify">&nbsp;</div>
 <div align="justify">&nbsp;</div>
-
+<div align="justify">&nbsp;</div>
 
 
 
@@ -219,12 +162,7 @@ $ ~/AstroMenace/AstroMenace
 <div align="justify">&nbsp;</div>
 
 
-<div align="justify">AstroMenace development moved to <a href="https://sourceforge.net/projects/openastromenace/" class="pathway" target="_blank">sourceforge.net</a>. We do not provide compiled binary packages for Linux anymore, contact your maintainers in order to get binary package for your Linux distro.</div>
-
-<ul>
-	<li><strong>AstroMenace Artwork, 65.0 MB ..... </strong><a href="http://sourceforge.net/projects/openastromenace/files/1.3.2/astromenace-artwork-1.3.2.zip" title="Download AstroMenace Source Artwork" target="_blank"><strong>astromenace-artwork-1.3.2.zip [Download]</strong></a></li>
-</ul>
-
+<div align="justify">AstroMenace development moved to <a href="https://github.com/viewizard/astromenace" class="pathway" target="_blank">GitHub.com</a>. We do not provide compiled binary packages for Linux anymore, contact your maintainers in order to get binary package for your Linux distro.</div>
 <div align="justify">&nbsp;</div>
 
 
@@ -266,15 +204,15 @@ $ sudo pkg_add -r -v gcc cmake subversion sdl libogg libvorbis openal \<br />
 libXinerama freealut freetype2 fontconfig linuxlibertine
 </li>
 
-<li class="big2"><strong>Checkout svn with latest source files</strong><br /><br />
+<li class="big2"><strong>Clone git with latest source files</strong><br /><br />
 $ cd ~/<br />
-$ svn checkout http://svn.code.sf.net/p/openastromenace/code/ AstroMenace<br />
+$ git clone https://github.com/viewizard/astromenace.git AstroMenace<br />
 <br />
 <strong>or download and unpack latest stable release</strong><br /><br />
 $ cd ~/<br />
-$ wget http://sourceforge.net/projects/openastromenace/files/1.3.2/astromenace-src-1.3.2.tar.bz2<br />
-$ tar xvjf astromenace-src-1.3.2.tar.bz2<br />
-
+$ wget https://github.com/viewizard/astromenace/archive/v1.3.2.tar.gz<br />
+$ mkdir -p ./AstroMenace<br />
+$ tar -xzvf v1.3.2.tar.gz -C ./AstroMenace --strip-components=1<br />
 </li>
 
 
