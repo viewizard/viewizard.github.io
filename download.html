@@ -110,14 +110,13 @@
 <a name="astromenace_windows" href="#astromenace_windows" title="AstroMenace for Windows">
 <img style="width: 64px; height: 64px; float: left; margin-top: 5px; margin-bottom: 5px; margin-right: 10px" src="images/style1/windows64.png" alt="AstroMenace for Windows" border="0" /></a>
 <h2 align="center"><a href="#astromenace_windows" title="AstroMenace for Windows" class="h2h3h4_color"><strong>AstroMenace for Windows </strong></a><a href="#astromenace_windows" title="AstroMenace for Windows"></a></h2>
-<h4 align="center"><a href="#astromenace_windows" title="AstroMenace for Windows" class="h2h3h4_color">Version 1.3.2</a></h4>
+<h4 align="center"><a href="#astromenace_windows" title="AstroMenace for Windows" class="h2h3h4_color">Version 1.4.0</a></h4>
 
 <div align="justify">&nbsp;</div>
 
 
 <ul class="arrow">
-	<li><strong>GitHub.com, 50.1 MB ..... </strong><a href="https://github.com/viewizard/astromenace/releases/download/v1.3.2/astromenace-win-1.3.2.exe" title="Download AstroMenace for Windows" target="_blank"><strong>astromenace-win-1.3.2.exe [Click here to download]</strong></a></li>
-	<li><strong>SourceForge.net, 50.1 MB ..... </strong><a href="https://sourceforge.net/projects/openastromenace/files/1.3.2/astromenace-win-1.3.2.exe" title="Download AstroMenace for Windows" target="_blank"><strong>astromenace-win-1.3.2.exe [Click here to download]</strong></a></li>
+	<li><strong>GitHub.com, 50.1 MB ..... </strong><a href="https://github.com/viewizard/astromenace/releases/download/v1.4.0/astromenace-win-1.4.0.exe" title="Download AstroMenace for Windows" target="_blank"><strong>astromenace-win-1.4.0.exe [Click here to download]</strong></a></li>
 </ul>
 
 <div align="justify">&nbsp;</div>
@@ -159,7 +158,7 @@
 <a name="astromenace_linux" href="#astromenace_linux" title="AstroMenace for Linux">
 <img style="width: 64px; height: 64px; float: left; margin-top: 5px; margin-bottom: 5px; margin-right: 10px" src="images/style1/linux64.png" alt="AstroMenace for Linux" border="0" /></a>
 <h2 align="center"><a href="#astromenace_linux" title="AstroMenace for Linux" class="h2h3h4_color"><strong>AstroMenace for Linux </strong></a><a href="#astromenace_linux" title="AstroMenace for Linux"></a></h2>
-<h4 align="center"><a href="#astromenace_linux" title="AstroMenace for Linux" class="h2h3h4_color">Version 1.3.2</a></h4>
+<h4 align="center"><a href="#astromenace_linux" title="AstroMenace for Linux" class="h2h3h4_color">Version 1.4.0</a></h4>
 
 <div align="justify">&nbsp;</div>
 
@@ -206,58 +205,50 @@ $ sudo pkg_add -r -v astromenace
 <div align="justify">&nbsp;</div>
 
 <ul class="big">
-<li class="big1"><strong>Make sure all necessary packages with development headers installed in your system:</strong> gcc (with g++), cmake, libsdl, libogg, libvorbis, GLU, openal, alut (freealut), libXinerama, freetype2
+<li class="big1"><strong>Make sure all necessary packages with development headers installed in your system:</strong> gcc or clang or any compiler with full ISO/IEC 14882:2011 (C++11) support, cmake, make, git, libsdl2, libogg, libvorbis, openal, alut (freealut), freetype2
 </li>
 
 <li class="ubuntu">
 <strong>Ubuntu/Mint/Debian:</strong><br />
-$ sudo apt-get install g++ cmake make libsdl1.2-dev \<br />
-libogg-dev libvorbis-dev libopenal-dev libalut-dev libXinerama-dev \<br />
-libfreetype6-dev libfontconfig1-dev fonts-linuxlibertine
+$ sudo apt-get install g++ cmake make git libsdl2-dev libogg-dev \<br />
+libvorbis-dev libopenal-dev libalut-dev libfreetype6-dev
 </li>
 <li class="mageia">
 <strong>Mageia:</strong><br />
-$ sudo urpmi gcc-c++ cmake make libSDL-devel libogg-devel \<br />
-libvorbis-devel libopenal-devel libxinerama-devel libfreealut-devel \<br />
-freetype2-devel libfontconfig-devel fonts-ttf-libertine
+$ sudo urpmi gcc-c++ cmake make git libsdl2.0-devel libogg-devel \<br />
+libvorbis-devel libopenal-devel libfreealut-devel freetype2-devel
 </li>
 <li class="opensuse">
 <strong>OpenSuse:</strong><br />
-$ sudo zypper install gcc-c++ cmake make libSDL-devel \<br />
-libogg-devel libvorbis-devel openal-soft-devel libXinerama-devel freealut-devel \<br />
-freetype2-devel fontconfig-devel linux-libertine-fonts
+$ sudo zypper install gcc-c++ cmake make git libSDL2-devel libogg-devel \<br />
+  libvorbis-devel openal-soft-devel freealut-devel freetype2-devel
 </li>
 <li class="fedora">
 <strong>Fedora:</strong><br />
-$ sudo yum install gcc-c++ cmake make SDL-devel libogg-devel \<br />
-libvorbis-devel openal-soft-devel libXinerama-devel freealut-devel  \<br />
-freetype-devel fontconfig-devel linux-libertine-fonts linux-libertine-biolinum-fonts
+$ sudo yum install gcc-c++ cmake make git SDL2-devel libogg-devel libvorbis-devel \<br />
+  openal-soft-devel freealut-devel freetype-devel linux-libertine-fonts
 </li>
 <li class="freebsd">
 <strong>FreeBSD:</strong><br />
-$ sudo pkg_add -r -v gcc cmake sdl libogg libvorbis openal \<br />
-libXinerama freealut freetype2 fontconfig linuxlibertine
+$ sudo pkg_add -r -v gcc cmake git sdl20 libogg libvorbis openal freealut freetype2
 </li>
 
 <li class="big2"><strong>Download and unpack latest stable release</strong><br /><br />
 $ cd ~/<br />
-$ wget https://github.com/viewizard/astromenace/archive/v1.3.2.tar.gz<br />
+$ wget https://github.com/viewizard/astromenace/archive/v1.4.0.tar.gz<br />
 $ mkdir -p ./AstroMenace<br />
-$ tar -xzvf v1.3.2.tar.gz -C ./AstroMenace --strip-components=1<br />
+$ tar -xzvf v1.4.0.tar.gz -C ./AstroMenace --strip-components=1<br />
 </li>
 
 
-<li class="big3"><strong>Compile game binary</strong><br /><br />
+<li class="big3"><strong>Compile game binary (game data file will be created automatically)</strong><br /><br />
 $ cd ~/AstroMenace<br />
 $ cmake ./<br />
 $ make
 </li>
 
 
-<li class="big4"><strong>Create game VFS data file</strong><br /><br />
-$ ./AstroMenace --pack --rawdata=./RAW_VFS_DATA
-</li>
-<li class="big5"><strong>Create desktop shortcut or start AstroMenace</strong><br /><br />
+<li class="big4"><strong>Create desktop shortcut or start AstroMenace</strong><br /><br />
 $ ~/AstroMenace/AstroMenace
 </li>
 </ul>
