@@ -249,8 +249,8 @@ $ tar -xzvf v1.4.0.tar.gz -C ./AstroMenace --strip-components=1<br />
 
 <li class="big3"><strong>Скомпилируйте бинарный файл игры (файл данных будет создан автоматически)</strong><br /><br />
 $ cd ~/AstroMenace<br />
-$ cmake ./<br />
-$ make
+$ cmake -DCMAKE_BUILD_TYPE=Release ./<br />
+$ make -j5
 </li>
 
 
